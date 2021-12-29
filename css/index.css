@@ -98,3 +98,34 @@ a {
  font-size: 14px;
  line-height: 24px;
 }
+
+@media screen and (max-width: 768px) {
+ body,
+ html {
+  max-width: 100%;
+  overflow-x: hidden;
+ }
+
+ .description {
+  line-height: 26px;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+ }
+
+ .legal {
+  background-color: var(--bglegal);
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+ }
+
+ .content {
+  width: 90%;
+  margin: 0 auto;
+ }
+}
