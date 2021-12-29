@@ -1,0 +1,100 @@
+:root {
+ --font-family: sans-serif;
+ --bgcolor: #151e33;
+ --bgcreate: #1c2842;
+ --acolor: #f089a0;
+ --bglegal: #202e4e;
+}
+
+html {
+ font-family: var(--font-family);
+ scroll-behavior: smooth;
+}
+
+body {
+ background-color: var(--bgcolor);
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.create {
+ background-color: var(--bgcreate);
+ width: 100%;
+ max-width: 785px;
+ min-width: 320px;
+ border-radius: 15px;
+ padding: 3rem;
+}
+
+a {
+ color: var(--acolor);
+ text-decoration: none;
+}
+
+.login {
+ text-align: right;
+ padding: 0px 20px 40px 0;
+ margin: 0;
+}
+
+.content {
+ width: 65%;
+ margin: 0 auto;
+}
+
+.title {
+ font-size: 26px;
+ text-align: center;
+}
+
+.description {
+ line-height: 26px;
+ text-align: center;
+ width: 400px;
+ margin: auto;
+}
+
+.form {
+ margin: 2rem auto 0;
+ height: auto;
+ display: flex;
+ flex-direction: column;
+}
+
+.form label {
+ font-weight: bold;
+ margin-bottom: 0.5rem;
+}
+
+.form input {
+ border: 1px solid #495e8d;
+ outline: none;
+ background-color: transparent;
+ border-radius: 5px;
+ font-size: 18px;
+ color: white;
+ padding: 1.4rem;
+ margin-bottom: 25px;
+ cursor: pointer;
+}
+
+.form .button {
+ background-color: #e3627f;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ margin-bottom: 4rem;
+}
+
+.legal {
+ background-color: var(--bglegal);
+ padding: 2.5rem;
+ border-radius: 10px;
+ margin: 0 auto;
+ width: 80%;
+ text-align: center;
+ font-size: 14px;
+ line-height: 24px;
+}
